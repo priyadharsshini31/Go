@@ -12,6 +12,8 @@ func main() {
 	    for k := range m{
 	      keys = append(keys,k)
 	    }
+	    sort.Strings(keys)
+
 	    for _,key:= range keys {
 	        fmt.Println(key, m[key])
 	    }
