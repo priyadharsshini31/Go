@@ -13,7 +13,7 @@ func main() {
  fmt.Println(first)
  fmt.Println(second)
 
-for ;sum <= max_no; {
+for ;sum <= max_no; {   // can drop in the semicolons, for is while loop in go 
     sum = first + second
     first = second
     second = sum
