@@ -6,7 +6,7 @@ import (
 	
 func main() {
 	var reversed string
-	alphabet := ([]byte)("donald duck")
+	alphabet := []rune("donald duck") //Using rune to not miss on encoding 
 	for i := len(alphabet)-1; i >= 0; i--{
 		reversed += (string)(alphabet[i])
 	}
